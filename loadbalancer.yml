@@ -1,0 +1,5 @@
+- hosts: all
+  vars_file: /etc/Ansible/secret.yml  
+  role:
+    -lb 
+    -webserver

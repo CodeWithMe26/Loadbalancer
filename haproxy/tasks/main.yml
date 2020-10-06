@@ -1,0 +1,6 @@
+---
+# tasks file for haproxy
+ - name: installing haproxy
+   package: 
+     name: haproxy
+     state: present 
